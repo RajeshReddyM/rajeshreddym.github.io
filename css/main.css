@@ -282,6 +282,16 @@ section.success a.active {
     background: #fff;
 }
 
+img.img-profile:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+img.img-profile {
+    margin-bottom: 50px;
+}
+
 .floating-label-form-group {
     position: relative;
     margin-bottom: 0;
@@ -344,11 +354,12 @@ footer {
 
 #contact h3 {
     color: #fff;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 #contact h4 {
     color: #fff;
+    margin-bottom: 50px;
 }
 
 #contact {
