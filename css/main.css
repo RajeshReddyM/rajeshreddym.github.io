@@ -226,6 +226,7 @@ section.success a.active {
     }
 }
 
+
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
@@ -299,6 +300,13 @@ section.success a.active {
     border: solid 2px #fff;
     color: #18bc9c;
     background: #fff;
+}
+
+.img-responsive {
+    display: block !important;
+    max-width: 100% !important;
+    height: 250px !important;
+    border: 1px solid #c7c0c0 !important;
 }
 
 img.img-profile:hover {
